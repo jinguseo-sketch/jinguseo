@@ -36,6 +36,8 @@ C:\dev\myweb\
 │   └── authors/
 │       └── me.yaml          # 프로필/저자 정보 (서진구 프로필, 약력, 연락처)
 ├── design.md                # jesusiswith.us 디자인 스튜디오 기반 규격 문서
+├── static/
+│   └── CNAME                # 커스텀 도메인 (jinguseo.net) 바인딩 파일
 └── doc/                     # 프로젝트 관리 문서
     ├── manual.md            # 제작 매뉴얼 (본 문서)
     └── issues.md            # 트러블슈팅 및 문제 해결 기록
