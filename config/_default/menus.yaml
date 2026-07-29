@@ -3,102 +3,56 @@
 #   The `weight` parameter defines the order that the links will appear in.
 
 main:
-  - name: Home
+  - name: 홈
     url: /#top
     weight: 10
-  - name: Features
-    url: /#features
+  - name: 소개
+    url: /#about
     weight: 20
-  - name: Compare
-    url: /#compare
-    weight: 25
-  - name: Pricing
-    url: /#pricing
+  - name: 전문 서비스
+    url: /#services
     weight: 30
-  - name: FAQ
-    url: /#faq
-    weight: 35
-  - name: Resources
+  - name: 부동산 인사이트
+    url: /#insights
     weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
-  - parent: Resources
-    name: Changelog
-    url: /changelog/
+  - name: 상담 문의
+    url: /#contact
+    weight: 50
 
-# Footer links (4-column layout)
-#   Top-level items become column headings, children become links.
+# Footer links
 footer:
-  - name: Product
+  - name: 주요 메뉴
     weight: 10
-  - parent: Product
-    name: Features
-    url: /#features
+  - parent: 주요 메뉴
+    name: 소개
+    url: /#about
     weight: 10
-  - parent: Product
-    name: Solutions
-    url: /#solutions
+  - parent: 주요 메뉴
+    name: 전문 서비스
+    url: /#services
     weight: 20
-  - parent: Product
-    name: Pricing
-    url: /#pricing
+  - parent: 주요 메뉴
+    name: 부동산 인사이트
+    url: /#insights
     weight: 30
-  - parent: Product
-    name: Compare
-    url: /#compare
-    weight: 35
-  - parent: Product
-    name: Changelog
-    url: /changelog/
+  - parent: 주요 메뉴
+    name: 상담 문의
+    url: /#contact
     weight: 40
 
-  - name: Company
-    weight: 20
-  - parent: Company
-    name: About
-    url: "#"
-    weight: 10
-  - parent: Company
-    name: Blog
+  - parent: 주요 메뉴
+    name: 블로그 칼럼
     url: /blog/
-    weight: 20
-  - parent: Company
-    name: Careers
-    url: "#"
-    weight: 30
-  - parent: Company
-    name: Contact
-    url: "#"
-    weight: 40
+    weight: 50
 
-  - name: Resources
-    weight: 30
-  - parent: Resources
-    name: Documentation
-    url: "#"
-    weight: 10
-  - parent: Resources
-    name: Help Center
-    url: "#"
+  - name: 법적 고지
     weight: 20
-  - parent: Resources
-    name: Community
-    url: "#"
-    weight: 30
-  - parent: Resources
-    name: Status
-    url: "#"
-    weight: 40
-
-  - name: Legal
-    weight: 40
-  - parent: Legal
-    name: Privacy Policy
+  - parent: 법적 고지
+    name: 개인정보 처리방침
     url: /privacy/
     weight: 10
-  - parent: Legal
-    name: Terms of Service
+  - parent: 법적 고지
+    name: 이용약관
     url: /terms/
     weight: 20
+

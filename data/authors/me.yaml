@@ -2,32 +2,25 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
-  pronouns: she/her
+  display: 서진구
+  given: 진구
+  family: 서
 status:
-  icon: "☕️"
-role: Professor of Artificial Intelligence
-bio: My research interests include distributed robotics, mobile computing and
-  programmable matter.
+  icon: "🏙️"
+role: 뉴욕 & 뉴저지 부동산 에이전트 / 자산 컨설턴트
+bio: 20년 현장 경험을 바탕으로 뉴욕 맨해튼 투자 및 뉴저지 버겐카운티 주택·학군 분석 인사이트를 제공합니다.
 affiliations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: 뉴욕 & 뉴저지 부동산 에이전시
+    url: https://jinguseo.net/
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/GoOwnable
+    url: mailto:jinguseo@gmail.com
+    label: 이메일 문의
+  - icon: brands/facebook
+    url: https://facebook.com
+  - icon: brands/youtube
+    url: https://youtube.com
+  - icon: brands/blogger
+    url: https://blog.naver.com
   - icon: brands/instagram
-    url: https://www.instagram.com/
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/cv
-    url: uploads/resume.pdf
-    label: Download my resume
-  - icon: rss
-    url: ./blog/index.xml
-    label: Subscribe to my blog via RSS feed
+    url: https://instagram.com

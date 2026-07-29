@@ -13,30 +13,28 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Beacon"
+    name: "서진구"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "서진구 부동산 자산 컨설팅"
     # Schema.org type for structured data
-    type: organization # person | organization | local_business
+    type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "The customer feedback platform for product teams."
+    tagline: "20년 차 뉴욕 맨해튼 & 뉴저지 버겐카운티 부동산 전문가"
     # Site meta description for search engines and social sharing
-    description: "Beacon captures customer feedback from every channel — Slack,
-      email, support, in-app — and uses AI to surface what matters. Turn customer
-      noise into your roadmap."
+    description: "20년 현장 경험의 부동산 전문가 서진구입니다. 뉴욕 맨해튼 투자 및 뉴저지 버겐카운티(포트리, 테너플라이, 팰팍, 클로스터, 크레스킬) 주택·학군 인사이트와 전문 칼럼을 확인하세요."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
-      twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)
+      twitter: "" # Twitter/X handle for Twitter Cards (without @)
       # Site-wide social links (rendered in footer, etc.)
       links:
-        - icon: brands/x
-          url: https://x.com/GoOwnable
-        - icon: brands/github
-          url: https://github.com/HugoBlox/kit
-        - icon: brands/discord
-          url: https://discord.gg/z8wNYzb
-        - icon: brands/linkedin
-          url: https://linkedin.com/company/example
+        - icon: brands/facebook
+          url: https://facebook.com
+        - icon: brands/youtube
+          url: https://youtube.com
+        - icon: brands/blogger
+          url: https://blog.naver.com
+        - icon: brands/instagram
+          url: https://instagram.com
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -152,7 +150,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   seo:
     # Browser tab title override (defaults to identity.name if not set)
-    title: ""
+    title: "서진구 | 뉴욕 맨해튼 & 뉴저지 버겐카운티 부동산 전문가"
     # For local_business identity type only
     location:
       address:

@@ -1,61 +1,51 @@
 ---
-title: 'Home'
-date: 2023-10-24
+title: '서진구 | 뉴욕 맨해튼 & 뉴저지 버겐카운티 부동산 전문가'
+date: 2026-07-29
 type: landing
 
 sections:
   - block: hero
     content:
-      eyebrow: Beacon for product teams
-      title: Turn customer [noise] into your roadmap
-      text: Capture feedback from every channel — Slack, email, support, in-app — and let AI surface what matters.
+      eyebrow: 20년 차 부동산 전문가 & 자산 컨설턴트
+      title: 현장의 생생한 이야기와 인사이트를 전하는 20년 차 부동산 전문가
+      text: 뉴욕 맨해튼의 투자·상권 시장부터 뉴저지 버겐카운티의 주택·학군 분석까지, 20년 현장 경험을 바탕으로 깊이 있는 부동산 통찰을 전합니다.
       primary_action:
-        text: Start free
-        url: "#pricing"
-        icon: rocket-launch
+        text: 최신 칼럼 & 인사이트 읽기
+        url: "#insights"
+        icon: hero/arrow-down
         style: gradient
       secondary_action:
-        text: How it works
-        url: "#how-it-works"
-        icon: play-circle
+        text: 전문 서비스 안내
+        url: "#services"
+        icon: hero/sparkles
         style: ghost
       announcement:
         badge:
-          text: NEW
+          text: 프리미엄 리포트
           color: primary
-        text: AI roadmap pull is live.
+        text: 서진구의 뉴욕·뉴저지 부동산 프리미엄 리포트 구독하기
         link:
-          text: Read more
-          url: "#features"
+          text: 구독 신청
+          url: "#contact"
       trust:
         stars: 5
-        text: "**4.9/5** from 1,200+ product teams"
-      # To switch to a split layout with a product mockup, uncomment the media block
-      # below and set `design.layout: split-left` (or `split-right` / `stacked`):
-      # media:
-      #   type: image
-      #   src: dashboard.png
-      #   dark_src: dashboard-dark.png   # optional dark-mode variant
-      #   alt: Beacon dashboard
+        text: "**2004 ~ 현재** | 20년 경력의 뉴욕 & 뉴저지 부동산 에이전트"
     design:
       spacing:
         padding: [0, 0, 0, 0]
         margin: [0, 0, 0, 0]
       css_class: "dark"
       section_break:
-        # Fade the hero's bottom edge into the dark logos band beneath (matches its bg-gray-900)
         fade_bottom: "#101828"
       background:
-        # Deep navy base; radial glow paints a soft violet spotlight from above
         color: "#0a0e27"
         gradient:
           type: radial
-          start: "rgba(124,58,237,0.45)"
+          start: "rgba(30,58,138,0.55)"
           end: "transparent"
           position: "50% -10%"
           shape: ellipse
           size: "80% 80%"
-        # Mesh orbs add depth and atmosphere on top of the radial glow
         gradient_mesh:
           enable: true
           style: orbs
@@ -65,332 +55,96 @@ sections:
           orb_count: 2
           positions: ["top-1/3 left-1/4", "bottom-1/3 right-1/4"]
           sizes: ["w-[32rem] h-[32rem]", "w-[26rem] h-[26rem]"]
-  - block: logos
-    content:
-      title: Trusted by product teams at
-      items:
-        - icon: brands/github
-          name: GitHub
-        - icon: brands/google
-          name: Google
-        - icon: brands/microsoft
-          name: Microsoft
-        - icon: brands/nvidia
-          name: NVIDIA
-        - icon: brands/openai
-          name: OpenAI
-        - icon: brands/anthropic
-          name: Anthropic
-        - icon: brands/stripe
-          name: Stripe
-        - icon: brands/vercel
-          name: Vercel
-    design:
-      layout: marquee
-      # White logos read cleanly against the dark band; both styles work — see logos block schema
-      logo_style: white
-      logo_size: md
-      marquee_speed: 35
-      # `dark` activates child components' `dark:` variants, `bg-gray-900` paints the band.
-      # Extends the dark zone from the hero, so the hero's fade-bottom no longer reveals a light strip.
-      css_class: "dark bg-gray-900"
-      spacing:
-        padding: ["2rem", 0, "2rem", 0]
 
   - block: stats
+    id: stats
     content:
       items:
-        - statistic: "12k+"
+        - statistic: "20년+"
           description: |
-            Signals captured  
-            per day
-        - statistic: "85%"
+            뉴욕 & 뉴저지  
+            부동산 현장 경력
+        - statistic: "NY & NJ"
           description: |
-            Less time spent  
-            triaging feedback
-        - statistic: "3.2×"
+            맨해튼 & 버겐카운티  
+            공인 부동산 라이선스
+        - statistic: "100%"
           description: |
-            Faster roadmap  
-            decisions
+            신뢰와 데이터 기반의  
+            맞춤 자산 컨설팅
     design:
       layout: minimal
       numbers_gradient: true
       css_class: "bg-white dark:bg-gray-900"
       spacing:
         padding: ["3rem", 0, "3rem", 0]
-  - block: steps
-    id: how-it-works
+
+  - block: cta-image-paragraph
+    id: about
     content:
-      title: From scattered signals to clear priorities
-      text: Get insights in your first week. No strategy doc required.
       items:
-        - title: Install the widget
-          text: One line of JS or our SDK. Auto-captures from your in-app surveys, Slack channels, support tickets, and email.
-          icon: code-bracket
-        - title: Connect your channels
-          text: Slack, Linear, Notion, Zendesk, Intercom, Jira, and 30+ more — every signal flows into one inbox.
-          icon: link
-        - title: Ship what matters
-          text: Beacon clusters signals into themes, ranks them by frequency and revenue weight, and pushes the winners to your roadmap.
-          icon: rocket-launch
+        - title: 20년 경험의 신뢰받는 자산 파트너
+          text: 20년 전 부동산 시장에 첫발을 내디딘 후, 뉴욕 맨해튼의 역동성과 뉴저지의 안정성을 모두 현장에서 경험했습니다. 단순한 거래 중개를 넘어 고객의 자산을 지키고 키우는 파트너로서, 정확한 데이터와 현장 감각을 바탕으로 최적의 솔루션을 제공합니다.
+          feature_icon: check
+          features:
+            - "날카로운 투자 가치 분석 (상권 및 시장 데이터 기반)"
+            - "20년 경력의 로컬 네트워크 (맨해튼 & 버겐카운티 수급망)"
+            - "진정성 있는 소통 (1:1 맞춤형 컨설팅 및 자산 관리)"
+          image: makers-shipping.jpg
+          button:
+            text: 무료 상담 신청
+            url: "#contact"
     design:
-      layout: horizontal
-      marker_style: icon
-      connector: none
+      css_class: "bg-gray-50 dark:bg-gray-900/50"
 
   - block: features
-    id: features
+    id: services
     content:
-      subtitle: Why Beacon
-      title: Customer voice, organized
-      text: Stop chasing feedback across five tools. Let Beacon do the listening, the synthesis, and the routing.
+      subtitle: Services
+      title: 전문 서비스
+      text: 20년 현장 노하우를 바탕으로 고객의 상황과 목적에 맞춘 맞춤형 솔루션을 제공합니다.
       items:
-        - name: AI signal synthesis
-          icon: sparkles
-          description: Beacon clusters thousands of fragmented signals into clear themes, ranked by frequency, recency, and revenue weight. Stop sifting; start shipping.
-        - name: Realtime capture
-          icon: bolt
-          description: From Slack threads to support tickets to in-app surveys — every channel, one inbox, instantly.
-        - name: Smart segmentation
-          icon: rectangle-group
-          description: Slice feedback by plan tier, persona, region, or any custom property in seconds.
-        - name: Roadmap sync
-          icon: arrow-path
-          description: Push prioritized themes straight into Linear, Jira, or Notion — round-trip status updates included.
-        - name: Branded widget
-          icon: paint-brush
-          description: Match your product's design tokens. Custom CSS supported. Ship a widget that looks like yours.
-        - name: SOC 2 + GDPR
-          icon: shield-check
-          description: Enterprise-grade security and data residency from day one. We never train models on customer data.
+        - name: 주거용 부동산 중개
+          icon: home
+          description: 버겐카운티 우수 학군(포트리, 테너플라이, 팰팍, 클로스터, 크레스킬) 단독주택 및 맨해튼 고급 콘도 중개
+        - name: 상업용/투자용 자산 컨설팅
+          icon: chart-bar
+          description: 맨해튼 상업용 부동산 시장 전망 및 뉴저지 주요 상권 분석을 통한 가치 투자 가이드
+        - name: 미국 이주 및 정착 지원
+          icon: academic-cap
+          description: 초기 정착 프로세스부터 자녀 교육 환경 및 버겐카운티 우수 학군 상세 분석 지원
+    design:
+      layout: bento
+      css_class: "bg-white dark:bg-gray-900"
+
+  - block: features
+    id: insights
+    content:
+      subtitle: Real Estate Insights & Columns
+      title: 최신 부동산 인사이트 & 칼럼
+      text: 뉴욕 맨해튼과 뉴저지 버겐카운티 현장에서 직접 분석한 리포트를 확인하세요.
+      items:
+        - name: "[맨해튼 인사이트] 맨해튼 상업용 부동산 전망"
+          icon: document-text
+          description: 맨해튼 주요 상권 시장의 흐름과 금리 변화에 따른 상업용 자산 투자 전략 및 전망 분석.
+        - name: "[버겐카운티 라이프] 버겐카운티 자녀 교육을 위한 최적의 거주지 분석"
+          icon: academic-cap
+          description: 포트리, 테너플라이, 팰리세이즈파크, 클로스터, 크레스킬 우수 학군과 주택 시장 비교 분석.
     design:
       layout: bento
       css_class: "bg-gray-50 dark:bg-gray-900/50"
-  - block: comparison-table
-    id: compare
-    content:
-      subtitle: How we compare
-      title: Why teams switch to Beacon
-      text: We picked the categories that matter to teams shipping today.
-      competitors:
-        - name: Beacon
-          tagline: AI feedback platform
-          highlight: true
-          badge: Recommended
-        - name: Canny
-          tagline: Feedback boards
-        - name: UserVoice
-          tagline: Enterprise voice-of-customer
-        - name: Productboard
-          tagline: Product management suite
-      rows:
-        - feature: Capture
-          category: true
-        - feature: Channel coverage
-          note: Slack, email, in-app, support
-          values: ["30+", "Limited", "Limited", "Some"]
-        - feature: Auto-capture from Slack
-          values: [true, false, false, "limited"]
-        - feature: In-app widget
-          values: [true, true, true, true]
-        - feature: Synthesis
-          category: true
-        - feature: AI clustering
-          values: [true, "partial", false, "partial"]
-          highlight: true
-        - feature: Theme detection
-          values: [true, false, false, true]
-        - feature: Sentiment analysis
-          values: [true, false, true, true]
-        - feature: Cost & ownership
-          category: true
-        - feature: Free tier
-          values: [true, true, false, false]
-        - feature: Starting price
-          values: ["Free", "$50/mo", "$499/mo", "$59/mo"]
-        - feature: Roadmap integrations
-          values: [true, "limited", true, true]
-      cta:
-        text: Start free
-        url: "#pricing"
-        icon: hero/arrow-right
-    design:
-      row_striping: true
-      css_class: "bg-gray-50 dark:bg-gray-900/50"
-
-  - block: pricing
-    id: pricing
-    content:
-      title: "Simple, transparent pricing"
-      subtitle: "Start free. Upgrade when your team grows. No credit card required."
-      billing_toggle:
-        enabled: true
-        monthly_label: Monthly
-        yearly_label: Yearly
-        yearly_discount: "Save 20%"
-      tiers:
-        - name: Starter
-          description: "Perfect for early-stage teams getting their first signals organized."
-          price:
-            monthly: "0"
-            yearly: "0"
-            currency: "$"
-          price_note: "Free forever"
-          highlight: false
-          cta:
-            text: Get started free
-            url: "https://beacon.example.com/start"
-            icon: hero/arrow-right
-            style: outline
-          features:
-            - text: "Up to 5 seats"
-              included: true
-            - text: "500 signals / month"
-              included: true
-            - text: "3 channel integrations"
-              included: true
-            - text: AI clustering
-              included: false
-            - text: Priority support
-              included: false
-        - name: Team
-          badge: Most popular
-          description: "For product teams shipping seriously."
-          price:
-            monthly: "19"
-            yearly: "15"
-            currency: "$"
-          price_suffix: /seat/month
-          price_note_monthly: "Billed monthly"
-          price_note_yearly: "Billed annually"
-          highlight: true
-          cta:
-            text: Start free trial
-            url: "https://beacon.example.com/start?plan=team"
-            icon: hero/arrow-right
-            style: primary
-          features:
-            - text: Unlimited seats
-              included: true
-            - text: "10,000 signals / month"
-              included: true
-            - text: All 30+ integrations
-              included: true
-            - text: AI clustering and themes
-              included: true
-            - text: Priority support
-              included: false
-        - name: Business
-          description: "Scale with SSO, custom data residency, and dedicated support."
-          price:
-            monthly: "49"
-            yearly: "39"
-            currency: "$"
-          price_suffix: /seat/month
-          price_note_monthly: "Billed monthly"
-          price_note_yearly: "Billed annually"
-          highlight: false
-          cta:
-            text: Start free trial
-            url: "https://beacon.example.com/start?plan=business"
-            icon: hero/arrow-right
-            style: outline
-          features:
-            - text: Unlimited seats
-              included: true
-            - text: "100,000 signals / month"
-              included: true
-            - text: All 30+ integrations
-              included: true
-            - text: AI clustering and themes
-              included: true
-            - text: Priority support and SSO
-              included: true
-
-  - block: cta-image-paragraph
-    id: solutions
-    content:
-      items:
-        - title: Built for makers shipping fast
-          text: Beacon meets you where your customers already are. Drop in the widget, sync your tools, and watch themes emerge in your first week.
-          feature_icon: check
-          features:
-            - "One-line install (JS snippet or SDK)"
-            - "30+ integrations out of the box"
-            - "AI synthesis from day one"
-          # Pexels — Rodrigo Santos / photo 3888151 (free for commercial use)
-          image: makers-shipping.jpg
-          button:
-            text: Start free
-            url: "#pricing"
-        - title: Loved by product and support teams
-          text: Bring product, support, and engineering to the same table. Beacon turns scattered feedback into shared truth — backed by data, not opinions.
-          feature_icon: bolt
-          features:
-            - "Slack, Zendesk, Intercom, and Linear sync"
-            - "Custom roles, audit logs, and SSO"
-            - "Round-trip roadmap status updates"
-          # Pexels — Anna Shvets / photo 5716018 (free for commercial use)
-          image: teams-collaboration.jpg
-          button:
-            text: Book a demo
-            url: "https://beacon.example.com/demo"
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
-      text: ""
-      items:
-        - name: "Maya Chen"
-          role: "Head of Product at Loop"
-          # Upload image to `assets/media/` and reference the filename here
-          image: "testimonial-1.jpg"
-          text: "We used to triage feedback in five different tools. Beacon clusters everything for us — and our roadmap finally reflects what users actually ask for."
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-
-  - block: faq
-    id: faq
-    content:
-      title: Frequently asked questions
-      subtitle: Everything you need to know before getting started.
-      items:
-        - question: Where is my data hosted?
-          answer: |
-            We default to AWS `us-east-1`, with EU and APAC residency available on Business plans. Beacon is SOC 2 Type II certified and GDPR-compliant — and we never train models on your customer data.
-        - question: Which tools does Beacon integrate with?
-          answer: |
-            30+ integrations across Slack, Linear, Notion, Zendesk, Intercom, Jira, HubSpot, and more. Don't see yours? The Webhooks API takes 5 minutes to wire up.
-        - question: How does the AI clustering work?
-          answer: |
-            Beacon embeds every signal, clusters by semantic similarity, and surfaces themes ranked by frequency, recency, and revenue weight. You see clusters — not raw transcripts — within minutes of installing.
-        - question: Can I migrate from Canny or UserVoice?
-          answer: |
-            Yes. Our import takes a CSV or API key, preserves voter and comment history, and runs in under 10 minutes for most teams. We'll do the migration for you on Business plans.
-        - question: What's the free tier limit?
-          answer: |
-            Up to 5 seats and 500 signals per month, with all core capture and triage features. The free tier doesn't expire.
-        - question: Do you have an SLA?
-          answer: |
-            99.9% uptime SLA on Team and Business plans. Public status page, real-time incident notifications, and post-mortems baked in.
 
   - block: cta-card
+    id: contact
     content:
-      title: Stop guessing. Start shipping what your customers want.
-      text: Free for teams under 5 seats — no credit card, no time limit.
+      title: 서진구 부동산 전문가에게 상담 신청하기
+      text: |
+        뉴욕 맨해튼 투자 및 뉴저지 버겐카운티 주택·학군 관련 궁금하신 점을 문의해 주세요.  
+        📧 이메일: jinguseo@gmail.com | 📍 주요 활동 지역: 뉴욕 맨해튼, 뉴저지 버겐카운티
       button:
-        text: Start free
-        url: "#pricing"
+        text: 이메일 문의 보내기
+        url: "mailto:jinguseo@gmail.com"
     design:
-      section_break:
-        # Fade the cta-card section's top edge into the white FAQ section above
-        fade_top: "#ffffff"
       card:
-        # Brand-coloured card with subtle gradient depth
-        css_class: "bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl"
-        css_style: ""
+        css_class: "bg-gradient-to-br from-slate-800 via-slate-900 to-navy-900 text-white shadow-2xl"
 ---
