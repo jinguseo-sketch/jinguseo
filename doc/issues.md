@@ -70,6 +70,16 @@
 
 ---
 
+### 🟢 Feature 5: jesusiswith.us 디자인 스튜디오 스터디 및 design.md 적용
+- **내용**: [https://jesusiswith.us/](https://jesusiswith.us/) 웹사이트의 색상, 타이포그래피, 다크모드 대응, 카드 레이아웃, 인디케이터 배지 시스템 분석
+- **적용 내역**:
+  - `design.md` 디자인 시스템 명세서 생성
+  - `params.yaml`에 `indigo`/`slate` 다크모드 및 토큰 반영
+  - `content/_index.md`에 Hero 2열, 강점 인디케이터, 3컬럼 서비스/인사이트 카드 및 뉴스레터 스페셜 카드 적용
+  - `hugo` 검증 결과 경고/에러 0건 정상 빌드 확인
+
+---
+
 ## 2. 향후 발생 가능한 문제 및 예방법
 
 1. **Hugo 버전에 따른 Deprecated 구문 주의**:

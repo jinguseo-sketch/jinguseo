@@ -38,7 +38,7 @@ hugoblox:
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
-  # Color and visual design system
+  # Color and visual design system (Studied from jesusiswith.us)
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     # Mode: 'light', 'dark', or 'system' (follows OS preference)
@@ -47,29 +47,20 @@ hugoblox:
     pack: "default"
     # Optional: Override theme pack colors
     colors:
-      primary: "" # Tailwind palette name or hex (e.g., "indigo" or "#6366f1")
-      secondary: ""
-      neutral: "" # Affects gray utilities (text-gray-*, bg-gray-*)
-    # Optional: Mode-specific color overrides
-    colors_light: {}
-    colors_dark: {}
-    # Optional: Semantic surface color overrides
+      primary: "indigo" # Deep Navy / Indigo tone
+      secondary: "blue"
+      neutral: "slate" # Slate gray utilities for clean editorial contrast
+    # Mode-specific surface overrides
     surfaces:
       background: ""
       foreground: ""
-      header:
-        background: ""
-        foreground: ""
-      footer:
-        background: ""
-        foreground: ""
 
   # ────────────────────────────────────────────────────────────────────────────
   # TYPOGRAPHY
   # Font and text sizing
   # ────────────────────────────────────────────────────────────────────────────
   typography:
-    # Theme pack: name from data/fonts/
+    # Theme pack: geometric for crisp professional feel
     pack: "geometric"
 
   # ────────────────────────────────────────────────────────────────────────────
