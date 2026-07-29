@@ -90,8 +90,20 @@ C:\dev\myweb\
 
 ```powershell
 # 1. 개발 서버 실행 (실시간 미리보기: http://localhost:1313/)
-hugo server
+hugo server -D
 
 # 2. 정적 웹사이트 생성 빌드
 hugo
 ```
+
+---
+
+## 6. 표준 작업 & 자동 배포 워크플로우 (5단계)
+
+글 작성, 설정 변경 및 배포 시 아래의 표준 5단계를 준수합니다:
+
+1. **콘텐츠 수정**: `content/_index.md`, `content/blog/`, 또는 `config/` 설정 수정 (직접 또는 Agent)
+2. **미리보기 확인**: `hugo server -D` 실행 후 브라우저(`http://localhost:1313`)에서 확인 후 `Ctrl + C` 종료
+3. **변경 사항 스테이징**: `git add .`
+4. **커밋 작성**: `git commit -m "작업 내용 메모"`
+5. **원격 푸시 & 자동 배포**: `git push` → Cloudflare Pages / GitHub Pages 연동으로 1~2분 내 자동 배포 완료
